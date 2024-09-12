@@ -1,0 +1,77 @@
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f5f7;
+    overflow-x: hidden;
+}
+.contact-information-shipment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 2rem 0 2rem 0;
+    gap: 1.5rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.input-containers-shipment {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-left: 3rem;
+}
+.input-containers-shipment-select {
+    display: flex;
+    margin-left: 3rem;
+}
+.input-container-shipment, .input-container-shipment-select {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.input-container-shipment label, .input-container-shipment-select label {
+    color: #243573;
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+.input-container-shipment input, .input-container-shipment-select input {
+    height: 5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 0.1rem;
+}
+.input-container-shipment-select select {
+    height: 5vh;
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+
+}
+.last-input {
+    width: 80%;
+}
+.input-container-shipment input:focus {
+    outline: none;
+}
+.input-container-shipment input::placeholder {
+    opacity: 50%;
+    color:#243573;
+}
+select {
+    color:#243573;
+}
+.error-message {
+    color: #ff5620;
+    font-size: 0.75vw;
+    margin-top: 0.5rem;
+}
+.red-border {
+    border-bottom: 2px solid #ff5620;
+}
